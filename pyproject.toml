@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "report_monaco_road"
+version = "0.0.8"
+authors = [
+  { name="Botvinko Dmitro", email="dmitrobottvinko@gmail.com" },
+]
+description = "Package count unique chars in file or string"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
